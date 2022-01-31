@@ -23,7 +23,6 @@ Post.init(
     },
     date: {
         type: DataTypes.DATEONLY,
-        allowNull: false,
         defaultValue: DataTypes.NOW
     }, 
     user_id: {
@@ -42,4 +41,4 @@ Post.init(
     modelName: 'post',
 });
 
-module.exports = Comment;
+module.exports = Post;
